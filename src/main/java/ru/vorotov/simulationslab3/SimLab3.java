@@ -12,7 +12,7 @@ public class SimLab3 extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SimLab3.class.getResource("view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 720, 760);
+        Scene scene = new Scene(fxmlLoader.load(), 550, 585);
         stage.setTitle("SimLab3");
         stage.setResizable(false);
         stage.setScene(scene);

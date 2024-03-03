@@ -18,8 +18,8 @@ public class SimController implements Initializable {
     @FXML
     private TextField ruleField;
 
-    private final int GRID_SIZE = 120;
-    private final int CELL_SIZE = 5;
+    private final int GRID_SIZE = 50;
+    private final int CELL_SIZE = 10;
     private final int[][] grid = new int[GRID_SIZE][GRID_SIZE];
 
     @Override
